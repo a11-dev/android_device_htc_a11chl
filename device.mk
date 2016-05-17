@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-# Inherit from a5-common
-$(call inherit-product, device/htc/a5-common/a5-common.mk)
+# Inherit from a11-common
+$(call inherit-product, device/htc/a11-common/a11-common.mk)

@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/htc/a5dwg/full_a5dwg.mk)
+$(call inherit-product, device/htc/a11chl/full_a11chl.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_a5dwg
+PRODUCT_NAME := cm_a11chl

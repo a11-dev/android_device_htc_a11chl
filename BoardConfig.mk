@@ -26,23 +26,22 @@
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
 
-# Inherit from common a5-common
--include device/htc/a5-common/BoardConfigCommon.mk
+# Inherit from common a11-common
+-include device/htc/a11-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := htc_a5,htc_a5dwg,htc_a5dug,a5,a5dwg,a5dug
+TARGET_OTA_ASSERT_DEVICE := htc_a11,htc_a11chl,htc_a11ul,a11,a11chl,a11ul
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
-AUDIO_FEATURE_HTC_DUAL_SIM := true
 
 # RIL
 BOARD_PROVIDES_LIBRIL := true
-BOARD_RIL_CLASS := ../../../device/htc/a5dwg/ril
+BOARD_RIL_CLASS := ../../../device/htc/a11chl/ril
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_LIBINIT_DEFINES_FILE := device/htc/a5dwg/init/init_a5dwg.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/htc/a11chl/init/init_a11chl.cpp
 
 # Inherit from the proprietary version
--include vendor/htc/a5dwg/BoardConfigVendor.mk
+-include vendor/htc/a11chl/BoardConfigVendor.mk

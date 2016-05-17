@@ -2,7 +2,7 @@
 
 set -e
 
-export DEVICE=a5dwg
+export DEVICE=a11chl
 export VENDOR=htc
 
-./../a5-common/extract-files.sh $@
+./../a11-common/extract-files.sh $@

@@ -2,7 +2,7 @@
 
 set -e
 
-export DEVICE=a5dwg
+export DEVICE=a11chl
 export VENDOR=htc
 
-./../a5-common/setup-makefiles.sh $@
+./../a11-common/setup-makefiles.sh $@

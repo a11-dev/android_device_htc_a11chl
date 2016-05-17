@@ -20,14 +20,14 @@ import android.content.Context;
 import android.os.AsyncResult;
 import android.os.Message;
 
-public class A5RIL extends RIL {
+public class A11RIL extends RIL {
 
-    public A5RIL(Context context, int preferredNetworkType, int cdmaSubscription) {
+    public A11RIL(Context context, int preferredNetworkType, int cdmaSubscription) {
         super(context, preferredNetworkType, cdmaSubscription, null);
         mQANElements = 5;
     }
 
-    public A5RIL(Context context, int preferredNetworkType,
+    public A11RIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
         super(context, preferredNetworkType, cdmaSubscription, instanceId);
         mQANElements = 5;

@@ -23,15 +23,15 @@
 # lines, full and maguro, hence its name.
 #
 
-# Inherit a5dwg-specific vendor tree
-$(call inherit-product-if-exists, vendor/htc/a5dwg/a5dwg-vendor.mk)
+# Inherit a11chl-specific vendor tree
+$(call inherit-product-if-exists, vendor/htc/a11chl/a11chl-vendor.mk)
 
-# Inherit from a5dwg
-$(call inherit-product, device/htc/a5dwg/device.mk)
+# Inherit from a11chl
+$(call inherit-product, device/htc/a11chl/device.mk)
 
 # Set those variables here to overwrite the inherited values
-PRODUCT_NAME := full_a5dwg
-PRODUCT_DEVICE := a5dwg
+PRODUCT_NAME := full_a11chl
+PRODUCT_DEVICE := a11chl
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
-PRODUCT_MODEL := a5dwg
+PRODUCT_MODEL := a11chl

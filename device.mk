@@ -16,3 +16,7 @@
 
 # Inherit from a11-common
 $(call inherit-product, device/htc/a11-common/a11-common.mk)
+
+# Variant linking script
+    PRODUCT_COPY_FILES += \
+        device/htc/a11chl/releasetools/variant_script.sh:install/bin/variant_script.sh

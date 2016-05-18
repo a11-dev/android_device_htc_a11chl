@@ -44,5 +44,8 @@ TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_a11chl
 TARGET_RECOVERY_DEVICE_MODULES := libinit_a11chl
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/htc/a11chl/releasetools
+
 # Inherit from the proprietary version
 -include vendor/htc/a11chl/BoardConfigVendor.mk
